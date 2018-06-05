@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>TEMPLATE</title>
+        <style>
+            body {
+                margin: 0;
+                font-family: sans-serif;
+            }
+
+            #control-container {
+                width: 100%;
+                height: 67px;
+            }
+
+            #drag-bar {
+                -webkit-app-region: drag;
+                width: 25%;
+                height: 100%;
+                float: left;
+                background: #00AEEF;
+                /* background-image: url('Barclays-Premier-League-symbol.jpg'); */
+                /* background-size: contain; */
+            }
+
+            #logo-holder {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+            }
+
+            #logo {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 25px;
+            }
+
+            #app-bar {
+                width: 75%;
+                height: 100%;
+                background-color: #145FAC;
+                float: right;
+                position: relative;
+            }
+
+            #close {
+                position: absolute;
+                top: 5px;
+                right: 5px;
+            }
+
+            #close:hover {
+                cursor: pointer;
+            }
+
+            .app-link {
+                height: 51px;
+                margin-left: 20px;
+                margin-top: 8px;
+            }
+
+            .app-link:hover {
+                cursor: pointer;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id='control-container'>
+            <div id='drag-bar'>
+                <div id='logo-holder'>
+                    <img src='Barclays-Premier-League-symbol.jpg' id='logo'>
+                </div>
+            </div>
+            <div id='app-bar'>
+                <span id='close'>X</span>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "OpenfinPOC",
+        "description": "OpenFin POC",
+        "url": "http://localhost:8080",
+        "uuid": "OpenfinPOC-xg8plelzy6",
+        "autoShow": true,
+        "defaultHeight": 67,
+        "defaultWidth": 250,
+        "frame": false,
+        "saveWindowState": false,
+        "resizeable": false,
+        "alwaysOnTop": true,
+        "cornerRounding": {
+            "height": 5,
+            "width": 5
+        }
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "beta"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Openfin POC",
+        "name": "Openfin POC"
+    }
+}
